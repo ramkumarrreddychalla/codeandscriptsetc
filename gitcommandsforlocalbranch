@@ -18,3 +18,4 @@
 9. merge some other branch to your branch (vice versa) (git checkout your branch and fetch ther branch)
     git fetch feature/<branchname>
     git merge FETCH_HEAD
+    
