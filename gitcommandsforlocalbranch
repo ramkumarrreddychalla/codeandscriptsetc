@@ -1,0 +1,20 @@
+1. initialize git
+   > git init
+2. Clone a branch
+   >git clone <repourl>
+3. git checkout a branch
+   git checkout feature/<branchname> 
+   git checkout -f feature/<branchname> - (overrides the local branch from the server version)
+4. create a local branch (this branch won't be avialble on the server(remote) until you push the branch to remote)
+    git checkout -b feature/<branchname>
+5. push the local branch to the server (remote)
+    git push origin feature/<branchname>
+6. delete local branch (deleting local branch won't delete the remote branch)
+    git branch -d feature/<branchname>
+7. delete remote branch 
+    git push origin --delete feature/<branchname>
+8. update the latest changes to your localbranch
+    git pull
+9. merge some other branch to your branch (vice versa) (git checkout your branch and fetch ther branch)
+    git fetch feature/<branchname>
+    git merge FETCH_HEAD
