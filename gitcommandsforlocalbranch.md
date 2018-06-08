@@ -19,3 +19,9 @@
     git fetch feature/<branchname>
     git merge FETCH_HEAD
     
+    
+Adding local new project to git
+
+1. create a remote repo on github
+    
+    
