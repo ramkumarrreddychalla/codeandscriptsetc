@@ -23,5 +23,14 @@
 Adding local new project to git
 
 1. create a remote repo on github
+2. copy the git url
+3. add / set the remote url from the project folder.
+    git remote add origin https://github.com/user/projectname.git
+    or
+    git remote set-url origin https://github.com/user/REPOSITORY.git
+4. git add .
+4. git commit -m "first time commiet etc"
+5. git push -u origin https://github.com/user/REPOSITORY.git
+     
     
-    
+add .gitignore to git project to ignore the files
